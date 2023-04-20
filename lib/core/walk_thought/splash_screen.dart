@@ -21,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
             const Duration(seconds: 3),
                 () => context.go('/')
             );
-  }
+  }   
   @override
   void initState() {
     onNavigate(context);
